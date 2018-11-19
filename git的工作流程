@@ -1,0 +1,6 @@
+1.本地工作区与远程仓库连接
+在github中建立一个仓库，同时新建一个文件夹，然后右键点击Git Bash Here,复制仓库地址。在页面中输入“git clone"和网址，点击回车键即可。
+2.远程仓库到本地电脑
+在仓库里查找有变动的文件，将变动内容放到stage里面。标清备注信息，commit，然后点击Push，同步到远程仓库。
+3.远程仓库到本地工作区
+选中文件，右击Git Bash Here,点击remote中的fetch origin,再从本地仓库到本地工作区，点击merge中的local merge.
